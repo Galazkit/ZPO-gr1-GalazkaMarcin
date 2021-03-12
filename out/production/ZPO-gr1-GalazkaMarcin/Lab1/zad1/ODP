@@ -1,0 +1,11 @@
+Wzorzec strategia można zmieniać podczas działania kodu, natomiast w interface mamy ten problem.
+
+Zalety:
+ - ograniczenie intrukcji warunkowych
+ - nie ma sztywnego powiązania między algorytmem a miejscem jego wykorzystania
+ - struktura pozwala na proste dodawanie i zmienianie algorytmów
+
+ Wady:
+  - duża liczba obiektów
+  - dodatkowy koszt komunikacji między klientem, a strategią(wywołania, przekazywanie danych)
+  - większa logika
