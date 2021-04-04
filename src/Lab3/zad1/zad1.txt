@@ -1,0 +1,13 @@
+Observer – operacyjny (behawioralny) wzorzec projektowy, który umożliwia automatyczne powiadomienie i
+aktualizację obiektu przez obiekt, który jest nasłuchiwany (tzw. subject).
+Przede wszystkim sprawdza się on w przypadkach, kiedy musimy zaktualizować obiekt klienta,
+ale nie mamy jasnej informacji, kiedy subject zakończy swoją pracę.
+
+Zalety:
+- uźna zależność między obiektem obserwującym i obserwowanym. Ponieważ nie wiedzą one wiele o sobie nawzajem,
+mogą być niezależnie rozszerzane i rozbudowywane bez wpływu na drugą stronę.
+- relacja między obiektem obserwowanym a obserwatorem tworzona jest podczas wykonywania programu i może być dynamicznie zmieniana
+- domyślnie powiadomienie otrzymują wszystkie obiekty. Obiekt obserwowany jest zwolniony z zarządzania subskrypcją.
+
+Wady:
+- obserwatorzy nie znają innych obserwatorów, co w pewnych sytuacjach może wywołać trudne do znalezienia skutki uboczne.
