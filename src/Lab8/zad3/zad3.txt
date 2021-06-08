@@ -1,0 +1,2 @@
+Wzorzec Metoda szablonowa jest dość powszechnie stosowany we frameworkach PHP.
+Upraszcza rozszerzanie domyślnej funkcjonalności frameworku stosując dziedziczenie klas.

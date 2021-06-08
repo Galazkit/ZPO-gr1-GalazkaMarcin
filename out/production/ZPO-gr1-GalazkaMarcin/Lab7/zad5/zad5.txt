@@ -1,0 +1,5 @@
+Adapter:
+- obudowuje obiekt pożądanym interfejsem
+
+Fasada:
+- potrzebujemy dostarczyć prostszy interfejs do złożonego podsystemu

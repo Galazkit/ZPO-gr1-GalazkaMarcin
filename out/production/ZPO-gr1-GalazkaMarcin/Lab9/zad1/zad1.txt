@@ -1,0 +1,10 @@
+Singleton jest kreacyjnym wzorcem projektowym,
+który pozwala zapewnić istnienie wyłącznie jednej instancji danej klasy.
+Ponadto daje globalny punkt dostępowy do tejże instancji.
+
+- Zapewnia istnienie wyłącznie jednej instancji danej klasy.
+- Pozwala na dostęp do tej instancji w przestrzeni globalnej.
+*****
+- Stosowany gdy zachodzi potrzeba ściślejszej kontroli nad zmiennymi globalnymi.
+- Stosowany gdy w programie ma prawo istnieć wyłącznie jeden ogólnodostępny obiekt danej klasy.
+ Przykładem może być połączenie z bazą danych, którego używa wiele fragmentów programu.

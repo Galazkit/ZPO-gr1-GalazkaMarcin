@@ -1,0 +1,12 @@
+Styczeń:10.0
+Luty:20.0
+Marzec:30.0
+Kwiecień:400.0
+Maj:500.0
+Czerwiec:600.0
+Lipiec:700.0
+Sierpień:800.0
+Wrzesień:900.0
+Październik:1000.0
+Listopad:1100.0
+Grudzień:1200.0
