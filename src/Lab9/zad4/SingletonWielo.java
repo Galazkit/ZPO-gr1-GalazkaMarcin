@@ -4,7 +4,7 @@ public class SingletonWielo{
 
     private static SingletonWielo instance;
 
-    //zsynchronizowana metoda getInstance z "blokadą z podwójnego zatwierdzenia"
+    //zsynchronizowana metoda getInstance z "blokadą podwójnego zatwierdzenia"
     public static SingletonWielo getInstance() {
         if (instance == null) {
             synchronized (SingletonWielo.class) {

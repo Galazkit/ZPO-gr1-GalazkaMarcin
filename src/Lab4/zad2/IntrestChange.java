@@ -1,7 +1,7 @@
 package Lab4.zad2;
 
 public class IntrestChange implements Operation{
-    Lab4.zad2.Account account;
+    Account account;
     Interest instest;
 
     public IntrestChange(Account account, Interest intrest){
