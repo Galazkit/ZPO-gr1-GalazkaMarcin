@@ -4,7 +4,7 @@ public class sprawdźStanAutoryzacji implements Stan {
     Autoryzacja authorization;
     String login = "login";
     String password = "password";
-    int countTry = 0;
+    int próby = 0;
 
     public sprawdźStanAutoryzacji(Autoryzacja authorization){
         this.authorization = authorization;
@@ -13,10 +13,10 @@ public class sprawdźStanAutoryzacji implements Stan {
     public void checkAuthorization(String login, String password) {
         if(login == this.login && password == this.password){
             authorization.setStan(authorization.AutoryzacjaPoprawna());
-            countTry = 0;
-        } else if ((login == this.login || password == this.password) && countTry < 2){
+            próby = 0;
+        } else if ((login == this.login || password == this.password) && próby < 2){
             authorization.setStan(authorization.AutoryzacjaNiePoprawna());
-            countTry++;
+            próby++;
         } else {
             authorization.setStan(authorization.AutoryzacjaNie3xPoprawna());
         }
